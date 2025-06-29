@@ -1,0 +1,56 @@
+body {
+    background-color: #1a1919;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;         
+    margin: 0;        
+    padding: 60px 0;     
+}
+
+.card {
+    background-color: #202020;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+.location {
+    color: #adff2f;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.bio {
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    background-color: rgb(58, 56, 56);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px 0;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #adff2f;
+    color: black;
+}
